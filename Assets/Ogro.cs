@@ -11,6 +11,7 @@ public class Ogro : MonoBehaviour
     [SerializeField] private float vida = 10f;
     [SerializeField] private float velocidade = 5f;
     [SerializeField] private string nome = "Josué";
+    public Nerd nerd;
 
 
     // Start is called before the first frame update
@@ -18,6 +19,7 @@ public class Ogro : MonoBehaviour
     {
         //Fazendo o ogro se apresentar
         Apresentar(nome);
+        nerd.Conta(vida);
 
     }
 
