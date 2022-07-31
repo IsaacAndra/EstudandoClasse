@@ -19,11 +19,6 @@ public class Ogro : MonoBehaviour
         //Fazendo o ogro se apresentar
         Apresentar(nome);
 
-        Apresentar("Ana");
-
-        Apresentar(vida.ToString());
-
-
     }
 
     // Update is called once per frame
@@ -37,9 +32,6 @@ public class Ogro : MonoBehaviour
     {
         //Esse código é o meu método
         Debug.Log("Prazer meu nome é " + nome);
-
-        //Usano o atributo ao invés do parâmetro
-        Debug.Log("Meu atributo é " + this.nome);
     }
 
 
