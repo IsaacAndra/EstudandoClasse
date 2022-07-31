@@ -8,9 +8,9 @@ public class Ogro : MonoBehaviour
     //Os atributos de uma Classe, são as suas variáveis.
 
     //Vida, velocidade, nome próprio.
-    public float vida = 10f;
-    public float velocidade = 5f;
-    public string nome = "Josué";
+    [SerializeField] private float vida = 10f;
+    [SerializeField] private float velocidade = 5f;
+    [SerializeField] private string nome = "Josué";
 
 
     // Start is called before the first frame update

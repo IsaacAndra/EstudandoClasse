@@ -16,6 +16,8 @@ public class Nerd : MonoBehaviour
     void Start()
     {
         meuParca.Apresentar(nome);
+
+
     }
 
     // Update is called once per frame
